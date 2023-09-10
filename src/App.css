@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans:wght@200;300&display=swap');
+
+body
+{
+  font-family: 'Poppins', sans-serif;
+  background-image: url('/src/assets/bg2.png');
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/*
+*
+{
+  margin: 0;
+}
+*/
+nav
+{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 72px;
+}
+
+.logo
+{
+  height: 100px;
+}
+
+nav ul
+{
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.login-btn
+{
+  all: unset;
+  padding-left: 13px;
+  padding-right: 13px;
+  height: 32px;
+  margin-top: 10px;
+  background-color: #c8262d;
+  color: wheat;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+main
+{
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+  height: calc(90vh - 72px);
+}
+
+main h1
+{
+  font-size: 108px;
+  font-weight: 800;
+  line-height: 100px;
+  margin-bottom: 50px;
+}
+
+p
+{
+  font-weight: 600;
+}
+
+.shop-btn
+{
+  all: unset;
+  background-color: #c8262d;
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+}
+.category-btn
+{
+  all: unset;
+  margin-left: 30px;
+  border-radius: 3px;
+  padding: 5px;
+  color: white;
+  background-color: black;
+}
+
+.shopping p
+{
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.brand-icon
+{
+  display: flex;
+  gap: 26px;
+}
+
+.image
+{
+  margin-left: 100px;
+}
